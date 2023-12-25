@@ -66,3 +66,24 @@ h4 {
     line-break: 10px;
 
 }
+
+.popover {
+    display: none;
+    background-color: #FAFAFA;
+    width: auto;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    margin: 9px 0px 0px -23px;
+}
+
+ul {
+    list-style: none;
+}
+
+.locations:hover .popover  {
+    display: block;
+}
+
+.amenities:hover .popover  {
+    display: block;
+}
